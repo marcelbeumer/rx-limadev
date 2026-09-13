@@ -38,7 +38,7 @@ alias k='kubectl'
 alias tf='terraform'
 alias gdalb='git branch | grep -v "master" | xargs git branch -D'
 alias ports='sudo lsof -P -i TCP -s TCP:LISTEN'
-alias chat='cd ~/dev/chat && rx-jail-opencode'
+alias chat='cd ~/dev/chat && rx-jail-opencode --agent chat'
 
 rp() { ( cd "$1" >/dev/null 2>&1 && pwd ); }
 # open like macOS
